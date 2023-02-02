@@ -1,0 +1,23 @@
+#container {
+    margin:3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .1em solid purple;
+    border-radius: 1em;
+    padding: 3em;
+}
+#container > div {
+    font-size: 1.25em;
+    margin: .7em;
+}
+#btn {
+    padding: 1em;
+    color: white;
+    margin: 1em;
+    border: .1em solid red;
+    background-color: rgb(245, 115, 92);
+    border-radius: 1em;
+    font-size: 1.2em; 
+}
