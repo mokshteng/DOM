@@ -15,6 +15,6 @@ const fetchData = async () => {
   email.textContent = `Email: ${person.email}`;
   phone.textContent = `Phone: ${person.phone}`;
   button.style.opacity = "1";
-  document.getElementsByTagName("body")[0].append(JSON.stringify(person))
+  document.getElementById("info").textContent=JSON.stringify(person);
 };
 button.addEventListener("click", fetchData);
